@@ -1,0 +1,40 @@
+<div class="container" ng-show="authenticated">
+    <h1>Profile</h1>
+    <h2>Hello, you are currently logged in as {{controller.greeting.name}}</h2>
+
+    <p>See what's on your profile:</p>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <th>Claim name</th>
+                <th>Claim value</th>
+            </tr>
+            <tr>
+                <td>User name</td>
+                <td>{{controller.greeting.name}}</td>
+            </tr>
+            <tr>
+                <td>Client ID</td>
+                <td>{{controller.greeting.oauth2Request.clientId}}</td>
+            </tr>
+            <tr>
+                <td>Token Type</td>
+                <td>{{controller.greeting.details.tokenType}}</td>
+            </tr>
+            <tr>
+                <td>Role</td>
+                <td>{{controller.greeting.authorities[0].authority}}</td>
+            </tr>
+
+            <tr>
+                <td>authenticated</td>
+                <td>true</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="container" ng-show="!authenticated">
+  <center><h1>Please Login to see your Profile</h1></center>
+</div>
+
+

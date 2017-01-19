@@ -1,0 +1,253 @@
+/**************** GENERAL *****************/
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #2f3e47;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron-title {
+    font-weight: 700;
+    color: #949799;
+}
+
+.greeny {
+    color: #01bf86;
+}
+
+a.greeny:hover {
+    color: #01bf86;
+}
+
+.contact-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron, .container-fluid .jumbotron {
+    border-radius: 4px;
+    background: #fff;
+    -webkit-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5) !important;
+    -moz-box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0px 22px 45px -15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.login-jumbotron {
+    margin-top: 20%;
+}
+
+.input-group-addon {
+    border-radius: 4px;
+    background-color: #464646;
+    border: 1px solid #464646;
+}
+
+.form-control {
+    border: 1px solid #eee;
+}
+
+.form-control:focus {
+    border-color: #01bf86;
+}
+
+.btn-greeny {
+    color: #fff;
+    background-color: #01bf86;
+    border: 2px solid #01bf86 !important;
+}
+
+.btn-greeny:hover {
+    color: #fff;
+    background-color: #01996B;
+    border: 2px solid #01996B !important;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    background-color: #01996B;
+    border: 2px solid #01996B !important;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline-color: #01996B;
+}
+
+.button {
+
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    padding-right: 30px;
+    padding-left: 70px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #eeeaee;
+}
+
+.button p {
+    font-size: 18px;
+}
+
+.button span {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    font-size: 30px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+.button.twitter {
+    background: #00acee;
+}
+
+.button.facebook {
+    background: #3b5998;
+}
+
+.button.google-plus {
+    background: #db4a39;
+}
+
+.button.linkedin {
+    background: #0e76a8;
+}
+
+.button.youtube {
+    background: #c4302b;
+}
+
+.button.github {
+    background: #171515;
+}
+
+.button.android {
+    background: #a4c639;
+}
+
+.button.skype {
+    background: #00aff0;
+}
+
+.button.dropbox {
+    background: #3d9ae8;
+}
+
+.button.foursquare {
+    background: #25a0ca;
+}
+
+.button.apple {
+    background: #cdcdcd;
+}
+
+.button.dribbble {
+    background: #ea4c89;
+}
+
+.button.instagram {
+    background: #3f729b;
+}
+
+.button.pinterest {
+    background: #c8232c;
+}
+
+.button.stackexchange {
+    background: #ef8236;
+}
+
+.button.flickr {
+    background: #ff0084;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.zmdi-negative {
+    color: #fff;
+}
+
+.division {
+    float: none;
+    margin: 0 auto 18px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 10px;
+    width: 34%;
+}
+
+.line.l {
+    left: 0;
+}
+
+.division .line.r {
+    right: 0;
+}
+
+/************ FOOTER ***************/
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2f3e47;
+    margin-top: 20%;
+}
+
+.footer h5 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer a:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer address {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 24px;
+    font-size: 13px;
+}
+
+a:hover, a:focus, .a:active {
+    text-decoration: none;
+    outline: none !important;
+}
