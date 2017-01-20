@@ -17,6 +17,10 @@
                 <center><h2 class="jumbotron-title">LOGIN</h2></center>
                 <br>
                 <br>
+                <div class="alert alert-warning">
+                    <small>To log in as a regular user, enter username 'user' and password 'password'.<small
+                    <small> To log in as an administrator, enter username 'admin' and password 'password'.</small>
+                </div>
                 <form action="login" method="post" role="form">
                     <fieldset>
                         <div class="form-group">
