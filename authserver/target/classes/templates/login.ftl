@@ -18,7 +18,7 @@
                 <br>
                 <br>
                 <div class="alert alert-warning">
-                    <small>To log in as a regular user, enter username 'user' and password 'password'.<small
+                    <small>To log in as a regular user, enter username 'user' and password 'password'.</small><br>
                     <small> To log in as an administrator, enter username 'admin' and password 'password'.</small>
                 </div>
                 <form action="login" method="post" role="form">
