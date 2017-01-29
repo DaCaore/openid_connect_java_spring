@@ -1,1 +1,1 @@
-# openid_connect_java_spring
+# Building an authentication server and client with Java and OpenID Connect
